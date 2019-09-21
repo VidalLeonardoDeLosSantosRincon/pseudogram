@@ -1,0 +1,12 @@
+.Footer{
+/*background: linear-gradient(45deg,orangered,orange);*/
+
+background-color:white;
+height: 100px;
+color:white;
+font-weight: normal;
+
+display:flex;
+justify-content: center;
+align-items: center;
+}

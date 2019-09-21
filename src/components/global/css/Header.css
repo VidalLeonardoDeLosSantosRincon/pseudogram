@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+}
+.Header{
+    /*background: linear-gradient(45deg, orangered, orange);*/
+
+    background-color:white;
+    height: 50px;
+    color:gray;
+    font-weight: normal;
+    box-sizing: border-box;
+    padding: 0 25px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    margin:0px 0px 1px 0px;
+
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns{
+    padding: 5px 15px;
+    background: white;
+    color:gray;
+    border:none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+
+}
+.btns:hover{
+   
+    border-bottom: 2px solid gray; 
+}
+
+.post-flex-container{
+    display: flex;
+    justify-content: center;
+    margin:0px 0px 0px 0px;
+    
+    background: linear-gradient(90deg,dodgerblue,purple,pink );
+    padding:8px 0px;
+}
+
+.box-post{
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:5px;
+    width:50%;
+    height: auto;
+    background: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+.casilla-post{
+    width:90%;
+    border:1px solid rgba(0,0,0,0.2);
+    height: 80px;
+    margin:5px 0px -16px 0px;
+    border-radius:5px;
+    padding: 0px 10px;
+    font-size:20px;
+    background: white;
+}
+.btnPost{
+    background: dodgerblue;
+    
+    padding: 7px 40px;
+    border-radius: 5px;
+    margin:5px 5px;
+    color:white;
+    border:none;
+    font-size:15px;
+}
+
+.btnPost:hover{
+    background: lightseagreen;
+}
+
+.post-btn-box{
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.subir{
+    padding: 5px 40px;
+    background: rgba(0,0,0,0.05);
+    color:gray;
+    border:0px solid #fff;
+    margin:5px 5px;
+    border-radius: 5px;
+    
+    
+}
+.subir:hover{
+    color:white;
+    background: rgba(0,0,0,0.1);
+}
+ 
+#file-upload{
+    display: none;
+}
+
+.progressBar{
+    margin:0px 0px 0px 0px;
+    width:90%;
+    height:2px;
+    
+}

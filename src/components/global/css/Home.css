@@ -1,0 +1,111 @@
+*{
+  color:gray;
+}
+
+.content{
+    background: linear-gradient(90deg,dodgerblue,purple,pink );
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+.flex-container-home{
+    
+    width:600px;
+    background: white;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px;
+    padding:15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  ;
+}
+
+.flex-container-home > .post-container{
+    height:auto;
+    width:90%;
+    background:white;
+    margin:15px 0px;
+    color:gray;
+    border-radius:2px;
+    box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.flex-container-home > .post-container:hover{
+  height:auto;
+  width:92%;
+  box-shadow:1px 1px 20px rgba(0,0,0,0.7);
+  -webkit-transition:all 0.1s linear;
+  -ms-transition:all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+ 
+}
+
+
+
+  /*//////////////////////////////////////*/
+   .demo{
+    margin: 5px;
+    padding:15px;
+    height:auto;
+    border: 0.5px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: white;
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  
+  }
+  
+  
+  
+   .demo > .demo-user-img{
+    /*background-image:url('../../../img/perfil.jpg');*/
+    background-size: cover;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+  }
+  .demo > .demo-info{
+    text-align: left;
+    margin: 0 0 0 6px;
+  }
+  
+ .demo > .demo-text{
+    text-align: left;
+    width: 100%;
+    margin:6px;
+  
+  }
+  
+  
+  .demo > .demo-post-img{
+    width:100%;
+    height:370px;
+    overflow: hidden;
+    background: black;
+  }
+  .demo > .demo-post-img > img{
+    width:auto;
+    height:370px;
+    
+  }
+  
+  .demo > .demo-post-img:hover{
+    transition:all 0.5s linear;
+    filter: brightness(0.9) ;
+  }
+  
+.demo > .heart-icon{
+     height: 30px;  
+     align-self: flex-end;
+   }
+  
